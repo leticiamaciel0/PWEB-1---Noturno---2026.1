@@ -1,5 +1,5 @@
 # Programação Web I - Unidade 1
-
+Aluna: Letícia Justino Maciel.
 Projeto contendo:
 
 - Classificação de notas
@@ -11,5 +11,3 @@ Projeto contendo:
 Tecnologias:
 - PHP procedural
 - HTML
-
-Autor: Gustavo
