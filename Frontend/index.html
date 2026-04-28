@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pedidos Pro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        .container { max-width: 800px; margin: auto; }
+        .pedido-card { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 8px; }
+        .badge { background: #007bff; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Novo Pedido</h1>
+        
+        <fieldset>
+            <legend>Adicionar Item</legend>
+            <input type="text" id="prodNome" placeholder="Nome do Produto (ex: Pizza)">
+            <input type="number" id="prodPreco" placeholder="Preço (R$)">
+            <input type="number" id="prodQtd" placeholder="Quantidade" value="1">
+            <button onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+        </fieldset>
+
+        <h3>Itens no Carrinho:</h3>
+        <ul id="listaCarrinho"></ul>
+        <button id="btnFinalizar" style="display:none;" onclick="enviarPedido()">Finalizar e Gerar WhatsApp</button>
+
+        <hr>
+
+        <h2>📋 Pedidos Recentes</h2>
+        <div id="listaPedidos">Carregando pedidos...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
