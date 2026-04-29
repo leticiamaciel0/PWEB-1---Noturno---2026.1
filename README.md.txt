@@ -122,3 +122,23 @@ O sistema foi publicado em hospedagem gratuita, estando disponível através de 
 Conclusão
 
 A atividade permitiu aplicar conceitos fundamentais de desenvolvimento web moderno, incluindo arquitetura em camadas, orientação a objetos, uso de padrões de projeto e deploy de aplicações. O sistema evoluiu de uma estrutura simples para uma solução mais organizada, escalável e alinhada com práticas do mercado.
+
+Parte 15 – Justificativa Técnica
+Responder:
+1. Quais problemas foram resolvidos?
+Foram resolvidos problemas de organização do código, dificuldade de manutenção e falta de integração entre as partes do sistema.
+
+2. Como a arquitetura melhorou o sistema?
+A arquitetura melhorou o sistema deixando ele mais organizado, separado em camadas (frontend e backend), facilitando manutenção e entendimento.
+
+3. Onde os padrões foram aplicados?
+Os padrões foram aplicados na separação de responsabilidades, como dividir em arquivos diferentes (ex: conexão com banco, lógica e interface).
+
+4. Como foi feita a integração frontend/backend?
+A integração foi feita usando requisições do frontend (HTML/JS) para o backend em PHP, que processa e retorna os dados.
+
+5. Quais dificuldades no deploy?
+Foram configurar o ambiente, subir o projeto corretamente e lidar com erros de configuração.
+
+6. Qual o papel do Docker no projeto?
+Serviu para criar um ambiente padronizado, facilitando rodar o sistema em qualquer máquina sem precisar configurar tudo manualmente.
